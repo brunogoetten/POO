@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoEmCamadas_WindowsForms.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace ProjetoEmCamadas_WindowsForms
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnCadastroCategoria_Click(object sender, EventArgs e)
+        {
+            frmCadastroCategoria frmCategoria = new frmCadastroCategoria();
+            frmCategoria.ShowDialog();
         }
     }
 }
