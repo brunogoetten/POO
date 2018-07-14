@@ -65,6 +65,8 @@
             // 
             // btnSalvar
             // 
+            this.btnSalvar.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.ForeColor = System.Drawing.Color.Red;
             this.btnSalvar.Location = new System.Drawing.Point(16, 130);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
