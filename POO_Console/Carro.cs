@@ -34,7 +34,7 @@ namespace POO_Console
         
         public void Acelerar()
         {
-            velocidade += velocidade + 10;
+            velocidade = velocidade + 10;
         }
 
         public void Frenar()

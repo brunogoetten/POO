@@ -16,11 +16,14 @@ namespace POO_Console
             novoCarro.Acelerar();
             novoCarro.Acelerar();
 
+            Console.WriteLine("Velocidadde do novo Carro:  " + novoCarro.Velocidade);
             Carro carro2 = new Carro(5);
             carro2.Acelerar();
             carro2.Frenar();
 
+            Console.WriteLine("Velocidadde do novo Carro 2:  " + carro2.Velocidade);
 
+            Console.ReadKey();
                 }
     }
 }
