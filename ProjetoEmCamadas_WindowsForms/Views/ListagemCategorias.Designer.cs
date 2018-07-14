@@ -29,25 +29,44 @@
         private void InitializeComponent()
         {
             this.dgvCategorias = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvCategorias
             // 
+            this.dgvCategorias.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvCategorias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCategorias.Location = new System.Drawing.Point(2, 3);
+            this.dgvCategorias.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Nome});
+            this.dgvCategorias.Location = new System.Drawing.Point(3, 1);
             this.dgvCategorias.Name = "dgvCategorias";
-            this.dgvCategorias.Size = new System.Drawing.Size(387, 246);
+            this.dgvCategorias.Size = new System.Drawing.Size(621, 370);
             this.dgvCategorias.TabIndex = 0;
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "Id";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            // 
+            // Nome
+            // 
+            this.Nome.DataPropertyName = "Nome";
+            this.Nome.HeaderText = "Nome";
+            this.Nome.Name = "Nome";
             // 
             // frmListagemCategorias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 261);
+            this.ClientSize = new System.Drawing.Size(626, 371);
             this.Controls.Add(this.dgvCategorias);
             this.Name = "frmListagemCategorias";
-            this.Text = "ListagemCategorias";
+            this.Text = "frmListagemCategorias";
             this.Load += new System.EventHandler(this.frmListagemCategorias_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategorias)).EndInit();
             this.ResumeLayout(false);
@@ -57,5 +76,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvCategorias;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
     }
 }
