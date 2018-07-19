@@ -60,7 +60,7 @@
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.btnCadastroCategoria);
             this.Name = "frmCadastro";
-            this.Text = "Form1";
+            this.Text = "frmCadastro";
             this.ResumeLayout(false);
 
         }
