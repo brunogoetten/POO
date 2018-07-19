@@ -1,6 +1,6 @@
 ﻿namespace ProjetoEmCamadas_WindowsForms
 {
-    partial class Form1
+    partial class frmCadastro
     {
         /// <summary>
         /// Required designer variable.
@@ -52,14 +52,14 @@
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
-            // Form1
+            // frmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.btnCadastroCategoria);
-            this.Name = "Form1";
+            this.Name = "frmCadastro";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
