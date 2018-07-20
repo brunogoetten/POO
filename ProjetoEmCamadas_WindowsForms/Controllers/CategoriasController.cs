@@ -13,9 +13,10 @@ namespace ProjetoEmCamadas_WindowsForms.Controllers
             contexto.SaveChanges();
         }
 
-        public List<Categoria>Listar()
+        public System.Collections.Generic.List<Categoria> Listar()
         {
             contexto.Categorias.ToList();
+            return Listar();
         }
     }
 }

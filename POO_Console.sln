@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_Console", "POO_Console\POO_Console.csproj", "{E42FBEA5-BE86-4C8E-BBC9-68B9E206D796}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmCamadas_WindowsForms", "ProjetoEmCamadas_WindowsForms\ProjetoEmCamadas_WindowsForms.csproj", "{69622F3F-8C90-4EE9-8635-5EE593946D2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E42FBEA5-BE86-4C8E-BBC9-68B9E206D796} = {E42FBEA5-BE86-4C8E-BBC9-68B9E206D796}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4869F912-644F-46FB-8026-535163356502}
 	EndGlobalSection
 EndGlobal

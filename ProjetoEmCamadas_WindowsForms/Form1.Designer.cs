@@ -30,6 +30,7 @@
         {
             this.btnCadastroCategoria = new System.Windows.Forms.Button();
             this.btnListar = new System.Windows.Forms.Button();
+            this.btnApagar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCadastroCategoria
@@ -52,11 +53,22 @@
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
+            // btnApagar
+            // 
+            this.btnApagar.Location = new System.Drawing.Point(26, 153);
+            this.btnApagar.Name = "btnApagar";
+            this.btnApagar.Size = new System.Drawing.Size(171, 22);
+            this.btnApagar.TabIndex = 2;
+            this.btnApagar.Text = "APAGAR CATEGORIA";
+            this.btnApagar.UseVisualStyleBackColor = true;
+            this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
+            // 
             // frmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnApagar);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.btnCadastroCategoria);
             this.Name = "frmCadastro";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button btnCadastroCategoria;
         private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Button btnApagar;
     }
 }
 

@@ -29,5 +29,11 @@ namespace ProjetoEmCamadas_WindowsForms
             frmListagemCategorias frmListaCategorias = new frmListagemCategorias();
             frmListaCategorias.ShowDialog();
         }
+
+        private void btnApagar_Click(object sender, EventArgs e)
+        {
+            frmApagandoCategoria frmApagarCategoria = new frmApagandoCategoria();
+            frmApagarCategoria.ToString("Qual a categoria deseja apagar")
+        }
     }
 }
